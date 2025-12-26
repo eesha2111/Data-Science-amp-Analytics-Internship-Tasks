@@ -1,11 +1,14 @@
-# Credit Risk Prediction
+# Data-Science-amp-Analytics-Internship-Tasks
+DevelopersHub Corporation
 
-## Objective
+## Task 2: Credit Risk Prediction
+
+### Objective
 The objective of this project is to predict whether a loan applicant is likely to default on a loan using historical credit data. This task focuses on data cleaning, exploratory data analysis, binary classification, and model evaluation using accuracy and a confusion matrix.
 
 ---
 
-## Dataset
+### Dataset
 The dataset used in this project is a **Loan / Credit Risk Prediction dataset from Kaggle**.  
 It contains applicant demographic information, loan details, credit history, and loan status.
 
@@ -21,7 +24,7 @@ The dataset was provided in separate files (`train.csv` and `test.csv`). Only th
 
 ---
 
-## Tools & Libraries
+### Tools & Libraries
 - Python
 - Pandas
 - NumPy
@@ -31,31 +34,31 @@ The dataset was provided in separate files (`train.csv` and `test.csv`). Only th
 
 ---
 
-## Approach
+### Approach
 
-### 1. Data Loading & Inspection
+#### 1. Data Loading & Inspection
 - Loaded the dataset using Pandas
 - Examined structure using `.shape`, `.columns`, `.head()`, and `.info()`
 
-### 2. Data Cleaning
+#### 2. Data Cleaning
 - Identified missing values in numerical columns
 - Handled missing values using **median imputation**
 - Ensured the dataset was clean before modeling
 
-### 3. Exploratory Data Analysis (EDA)
+#### 3. Exploratory Data Analysis (EDA)
 - Visualized loan amount distribution using histograms
 - Analyzed relationships between income and loan status using boxplots
 - Examined categorical features such as loan intent and home ownership
 
-### 4. Feature Preparation
+#### 4. Feature Preparation
 - Encoded categorical variables using one-hot encoding
 - Scaled numerical features using `StandardScaler` to improve model convergence
 
-### 5. Model Training
+#### 5. Model Training
 - Trained a **Logistic Regression** model for binary classification
 - Split the data into training and testing sets
 
-### 6. Model Evaluation
+#### 6. Model Evaluation
 - Evaluated performance using:
   - Accuracy score
   - Confusion matrix
@@ -63,7 +66,7 @@ The dataset was provided in separate files (`train.csv` and `test.csv`). Only th
 
 ---
 
-## Results
+### Results
 
 - **Accuracy:** 86%
 - The model performed very well in identifying non-default cases.
@@ -72,7 +75,7 @@ The dataset was provided in separate files (`train.csv` and `test.csv`). Only th
 
 ---
 
-## Conclusion
+### Conclusion
 This project demonstrates a complete machine learning workflow for credit risk prediction, including data cleaning, visualization, feature engineering, model training, and evaluation. The results highlight the importance of exploratory analysis and proper preprocessing when building classification models for real-world financial data.
 
 ---
