@@ -1,6 +1,7 @@
+# Data-Science-amp-Analytics-Internship-Tasks
+DevelopersHub Corporation
 
-
-## Customer Churn Prediction
+## Task 3: Customer Churn Prediction
 
 ### Objective
 To identify bank customers who are likely to leave the bank using machine learning classification techniques.
