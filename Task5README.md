@@ -1,7 +1,7 @@
 # Data-Science-amp-Analytics-Internship-Tasks
 DevelopersHub Corporation
 
-## Task5: Personal Loan Acceptance Prediction
+## Task 5: Personal Loan Acceptance Prediction
 
 ###  Objective
 The objective of this project is to predict which customers are **likely to accept a personal loan offer** based on their demographic and financial attributes. The task focuses on data exploration, classification modeling, and extracting business insights from the results.
